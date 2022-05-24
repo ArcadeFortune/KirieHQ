@@ -1,0 +1,73 @@
+h1	{
+	color: red;
+}
+body {
+	background-color: #F9F9F9;
+    
+}
+.main {
+	background-color: cyan;
+	width:100%;
+	height:5em;
+}
+.title {
+	background: brown;
+	float:left;
+	height:100%;
+	width:auot;
+}
+.login-field {
+	height: 100%;
+	width: 40%;
+	zoom:111%;
+	top:0px;
+	position :absolute;
+}
+.text-field {
+	width:47%;
+	margin:0px;
+	padding:05px;
+	border:2px outset black;
+
+}
+html {
+	color: red
+}
+body {
+	color: blue;
+	color: #00FF0050;
+	color: hsl(200, 100%, 50%)
+}
+.box {
+	font-size: 30px;
+	height: em;
+	width: 2em;
+	padding: 5%;
+	margin: 10px;
+	border: 5px solid black;
+	background-color: red;
+}
+.check-box {
+	position: absolute;
+	top: -20%;
+	left: -20%;
+	display: block;
+	width: 140%;
+	height: 140%;
+	margin: 0px;
+	padding: 0px;
+	background: rgb(255, 255, 255);
+	border: 0px;
+	opacity: 0;
+}
+ul {
+	display: grid;
+	list-style-type: none;
+	margin-top: 1em;
+	margin-bottom: 1 em;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0px;
+  }
+	
+	
