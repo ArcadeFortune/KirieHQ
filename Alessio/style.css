@@ -1,27 +1,38 @@
+/* hi */
+
 h1	{
 	color: red;
 }
 body {
-	background-color: #F9F9F9;
+	background-image: url(../Bilder/misakamisaka.gif);
     
 }
 .main {
-	background-color: cyan;
+	background-color: #c23737;
 	width:100%;
 	height:5em;
 }
 .title {
 	background: brown;
-	float:left;
-	height:100%;
-	width:auot;
+	float: left;
+	height: 100%;
+	width: auto;
 }
 .login-field {
-	height: 100%;
+	height: 5px;
 	width: 40%;
-	zoom:111%;
-	top:0px;
-	position :absolute;
+	zoom: 111%;
+	top: 0px;
+	position: absolute;
+	border: 5px solid #F9F9F9;
+	margin: #F9F9F9;
+	padding: #F9F9F9;
+
+}
+.kasten {
+	border: 5px solid #F9F9F9;
+	margin: 5px solid #F9F9F9;
+	padding: 5px solid #F9F9F9;
 }
 .text-field {
 	width:47%;
@@ -36,12 +47,12 @@ html {
 body {
 	color: blue;
 	color: #00FF0050;
-	color: hsl(200, 100%, 50%)
+	color: hsl(117, 69%, 60%)
 }
 .box {
 	font-size: 30px;
-	height: em;
-	width: 2em;
+	height: 20％;
+	width: 40%;
 	padding: 5%;
 	margin: 10px;
 	border: 5px solid black;
@@ -69,5 +80,6 @@ ul {
 	margin-right: 0;
 	padding-left: 0px;
   }
-	
-	
+.abd {
+	color: rgb(192, 235, 4);
+}
