@@ -55,9 +55,24 @@
 	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_top" title="eh">_top</a> <br>
 	<hr class="line">
 	<h2>You:</h2>
-	<div class="videobox">
-		<video src="" id="videoElement"></video>
+	<div id="container">
+		<video autoplay="true" id="videoElement">
+		
+		</video>
 	</div>
+	<script>
+		var video = document.querySelector("#videoElement");
+
+		if (navigator.mediaDevices.getUserMedia) {
+			navigator.mediaDevices.getUserMedia({ video: true })
+				.then(function (stream) {
+					video.srcObject = stream;
+				})
+				.catch(function (err0r) {
+					console.log("Something went wrong!");
+				});
+		}
+	</script>
 	<div>
 
 		<audio src="../Bilder/a.mp3" controls></audio>
@@ -217,19 +232,7 @@
 
 
 
-	<script>
-		var video = document.querySelector("#videoElement");
-
-		if (navigator.mediaDevices.getUserMedia) {
-			navigator.mediaDevices.getUserMedia({ video: true })
-				.then(function (stream) {
-					video.srcObject = stream;
-				})
-				.catch(function (err0r) {
-					console.log("Something went wrong!");
-				});
-		}
-	</script>
+	
 
 </body>
 
