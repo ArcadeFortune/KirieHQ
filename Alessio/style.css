@@ -59,6 +59,7 @@ body {
 	margin: 10px;
 	border: 5px solid black;
 	background-color: red;
+	max-width: 500px;
 }
 .check-box {
 	position: absolute;
@@ -84,4 +85,7 @@ ul {
   }
 .abd {
 	color: rgb(192, 235, 4);
+}
+.bild {
+	max-width: 500px;
 }
