@@ -9,18 +9,22 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body><ul>
-	<li>
-	<a href="/KirieHQ/Alessio/index.html" target="_blank">Home</a>
-	</li><li>
-<a href="/KirieHQ/Alessio/Blog/index.html" target="_blank">Blog</a>
-	</li><li>
-<a href="/KirieHQ/Alessio/Projects/index.html" target="_blank">Projects</a>
-	</li><li>
-<a href="/KirieHQ/Alessio/Contact/index.html" target="_blank">Contact</a>
-	</li>
-</ul>
-	
+<body>
+	<ul>
+		<li>
+			<a href="/KirieHQ/Alessio/index.html" target="_blank">Home</a>
+		</li>
+		<li>
+			<a href="/KirieHQ/Alessio/Blog/index.html" target="_blank">Blog</a>
+		</li>
+		<li>
+			<a href="/KirieHQ/Alessio/Projects/index.html" target="_blank">Projects</a>
+		</li>
+		<li>
+			<a href="/KirieHQ/Alessio/Contact/index.html" target="_blank">Contact</a>
+		</li>
+	</ul>
+
 	<!-- kiriehqqqaaaa -->
 	<div class="main">
 		<div class="title">
@@ -49,7 +53,11 @@
 	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_parent" title="eh">_parent</a> <br>
 	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_self" title="eh">_self</a> <br>
 	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_top" title="eh">_top</a> <br>
-	<hr>
+	<hr class="line">
+	<h2>You:</h2>
+	<div class="videobox">
+		<video src="" id="videoElement"></video>
+	</div>
 	<div>
 
 		<audio src="../Bilder/a.mp3" controls></audio>
@@ -61,7 +69,7 @@
 		<figcaption>kurumi
 		</figcaption>
 		<img src="../Bilder/a hot kurumi.jpeg" title="watch date a live IV" border="20" ismap="ismap" usemap="#testmap"
-			alt="f" width="70%">
+			alt="f" width="70%" class="bild">
 	</figure>
 	<figure>
 		<figcaption>Kuromu
@@ -181,6 +189,48 @@
 			<h3>mikan ist sehr gut</h3>
 		</section>
 	</main>
+	<br class="worldsendharem">
+	<table class="worldsendharem">
+		<th>
+			<tr>
+				aasdas
+			</tr>
+		</th>
+	</table>
+	<table class="worldsendharem">
+		<th>
+			<tr>
+				holy shiet wellplayed on finding this easter egg!!
+			</tr>
+		</th>
+	</table>
+	<hr>
+	<table class="worldsendharem">
+		<th>
+			<tr>
+				stop finding me
+			</tr>
+		</th>
+	</table>
+	<h1>aaa</h1>
+	made in 15.03.2022
+
+
+
+	<script>
+		var video = document.querySelector("#videoElement");
+
+		if (navigator.mediaDevices.getUserMedia) {
+			navigator.mediaDevices.getUserMedia({ video: true })
+				.then(function (stream) {
+					video.srcObject = stream;
+				})
+				.catch(function (err0r) {
+					console.log("Something went wrong!");
+				});
+		}
+	</script>
+
 </body>
 
 </html>

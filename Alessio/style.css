@@ -5,6 +5,17 @@ h1	{
 }
 body {
 	background-image: url(../Bilder/misakamisaka.gif);
+	background-image: url(../Bilder/l.png);
+}
+#videoElement {
+	width: 500px;
+	height: 375px;
+	background-color: #666;
+}
+.videobox {	
+	width: 500px;
+	height: 375px;
+	border: 10px #333 solid;
 }
 .blogbg {
 	background-color: #c23737;
@@ -88,4 +99,16 @@ ul {
 }
 .bild {
 	max-width: 500px;
+}
+.line {
+	height: 50px;
+	margin-left: -100%;
+	margin-right: -100%;
+	background-color: black;
+	display: flex;
+}
+.worldsendharem {
+	height: 200000cm;
+	margin-top: 100cm;
+	margin-bottom: 100cm;
 }
