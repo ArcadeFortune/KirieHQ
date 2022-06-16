@@ -107,6 +107,11 @@ ul {
 	background-color: black;
 	display: flex;
 }
+.rickroll {
+	color: yellow;
+	text-decoration: underline;
+	text-align: center;
+}
 .worldsendharem {
 	height: 200000cm;
 	margin-top: 100cm;
