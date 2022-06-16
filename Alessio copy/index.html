@@ -55,9 +55,24 @@
 	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_top" title="eh">_top</a> <br>
 	<hr class="line">
 	<h2>You:</h2>
-	<div class="videobox">
-		<video src="" id="videoElement"></video>
+	<div id="container">
+		<video autoplay="true" id="videoElement">
+		
+		</video>
 	</div>
+	<script>
+		var video = document.querySelector("#videoElement");
+
+		if (navigator.mediaDevices.getUserMedia) {
+			navigator.mediaDevices.getUserMedia({ video: true })
+				.then(function (stream) {
+					video.srcObject = stream;
+				})
+				.catch(function (err0r) {
+					console.log("Something went wrong!");
+				});
+		}
+	</script>
 	<div>
 
 		<audio src="../Bilder/a.mp3" controls></audio>
@@ -150,7 +165,8 @@
 			</form>
 		</section>
 		<section>
-			<table border="7" cellpadding="10" cellspacing="0">
+			<table border="6" cellpadding="9" cellspacing="0" style="border-collapse: XD;">
+				<!--WHAT THE FK WHY DOES IT LOOK GOOD WITOUT BORDER COLLAPSE???????????????????????????????????-->
 				<caption>Table　/　テーベル</caption>
 				<tr>
 					<th></th>
@@ -213,24 +229,8 @@
 		</th>
 	</table>
 	<h1>aaa</h1>
-	made in 15.03.2022
-
-
-
-	<script>
-		var video = document.querySelector("#videoElement");
-
-		if (navigator.mediaDevices.getUserMedia) {
-			navigator.mediaDevices.getUserMedia({ video: true })
-				.then(function (stream) {
-					video.srcObject = stream;
-				})
-				.catch(function (err0r) {
-					console.log("Something went wrong!");
-				});
-		}
-	</script>
-
+	made in 15.03.2022 <br>
+	<a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" style="color: yellow;">animixplay.to/anime/15583</a>
 </body>
 
 </html>
